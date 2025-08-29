@@ -46,8 +46,8 @@ class IGPSportClient:
             "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
             "accept": "application/json, text/plain, */*",
             "content-type": "application/json",
-            "origin": "https://login.passport.igpsport.com",
-            "referer": "https://login.passport.igpsport.com/"
+            "origin": "https://login.passport.igpsport.com/login",
+            "referer": "https://login.passport.igpsport.com/login/"
         })
     
     def login(self) -> bool:
